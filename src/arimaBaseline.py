@@ -1,8 +1,5 @@
 
-
 # Gave just a straight line. Not of much use. Need to try a better model
-
-
 
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -21,7 +18,7 @@ def run_baseline_model(csv_path):
     test_data = df.loc['2026-04-21':'2026-04-22', 'p99_latency_ms']
 
     print("Training Baseline ARIMA")
-    # order=(2,1,2) is a standard starting configuration for noisy time-series data
+    # order=(2,1,2) im guessing and taking parametes here, will implement grid search later to find the best parameters
     model = ARIMA(train_data, order=(2,1,2)) 
     model_fit = model.fit()
 

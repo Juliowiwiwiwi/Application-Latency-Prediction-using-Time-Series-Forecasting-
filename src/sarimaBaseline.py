@@ -23,8 +23,8 @@ def run_sarima_model(csv_path):
     #Build and Train Seasonal ARIMA
     print("Training Seasonal ARIMA")
     
-    # order=(1, 1, 1): Standard ARIMA part
-    # seasonal_order=(1, 0, 1, 288): The Seasonal part. 288 = number of 5-min intervals in 24 hours.
+    # order=(1, 1, 1): im guessing and taking parametes here, will implement grid search later to find the best parameters
+    # seasonal_order=(1, 0, 1, 288): im guessing and taking parametes here, will implement grid search later to find the best parameters The Seasonal part 288 = number of 5 min intervals in 24 hourss
     model = SARIMAX(
         train_data, 
         order=(1, 1, 1), 
