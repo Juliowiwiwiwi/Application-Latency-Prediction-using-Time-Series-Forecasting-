@@ -1,0 +1,25 @@
+name,start_day,duration_hours,start_idx,end_idx,latency_impact,precursor_minutes
+Memory Leak #1,5,18,1440,1656,0.8,75
+Memory Leak #2,41,15,11808,11988,0.75,75
+Memory Leak #3,77,20,22176,22416,0.9,75
+Memory Leak #4,113,16,32544,32736,0.78,75
+CPU Spike #1,12,6,3456,3528,1.8,75
+CPU Spike #2,48,5,13824,13884,1.6,75
+CPU Spike #3,84,7,24192,24276,2.0,75
+CPU Spike #4,120,6,34560,34632,1.7,75
+Database Lock #1,19,12,5472,5616,1.5,75
+Database Lock #2,55,10,15840,15960,1.4,75
+Database Lock #3,91,14,26208,26376,1.65,75
+Database Lock #4,127,11,36576,36708,1.45,75
+Request Flood #1,26,8,7488,7584,0.6,75
+Request Flood #2,62,7,17856,17940,0.55,75
+Request Flood #3,98,9,28224,28332,0.7,75
+Request Flood #4,134,8,38592,38688,0.58,75
+Cascading Failure #1,33,9,9504,9612,2.0,75
+Cascading Failure #2,69,8,19872,19968,1.9,75
+Cascading Failure #3,105,10,30240,30360,2.3,75
+Cascading Failure #4,141,9,40608,40716,2.1,75
+Thermal Throttle #1,44,11,12672,12804,0.85,75
+Thermal Throttle #2,80,10,23040,23160,0.8,75
+Thermal Throttle #3,116,12,33408,33552,0.92,75
+Thermal Throttle #4,148,10,42624,42744,0.82,75
